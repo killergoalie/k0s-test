@@ -1,0 +1,6 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "rockylinux/9.5.1"
+  config.vm.box_url = "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Vagrant-Vbox-9.5-20241118.0.aarch64.box"
+
+end
